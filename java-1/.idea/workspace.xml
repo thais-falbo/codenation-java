@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="02db04b8-0c6e-4636-9691-928dbd284f40" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="java-1" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="java-1" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="java-1" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="java-1" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="java-1" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XxBevVsDKks4s76PQRa7Ni5g4c" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowFavorites.ShowToolbar" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="desafio-java-1.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/libs/desafio-java-1.jar" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.desafio-java-1.jar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="4" Folder0="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary" Folder1="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary" Folder2="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary" Folder3="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary" CustomDictionaries="4" CustomDictionary0="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary/portuguese-brazil_technical-terms_without-accents.dic" CustomDictionary1="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary/portuguese-brazil_technical-terms.dic" CustomDictionary2="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary/portuguese-brazil_without-accents.dic" CustomDictionary3="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary/portuguese-brazil.dic" Dictionaries="4" Dictionary0="$USER_HOME$/Desktop/IntelliJ.Portuguese.Brazil.Dictionary/portuguese-brazil_without-accents.dic" Dictionary1="$USER_HOME$/Desktop/IntelliJ.Portuguese.Brazil.Dictionary/portuguese-brazil_technical-terms_without-accents.dic" Dictionary2="$USER_HOME$/Desktop/IntelliJ.Portuguese.Brazil.Dictionary/portuguese-brazil.dic" Dictionary3="$USER_HOME$/Desktop/IntelliJ.Portuguese.Brazil.Dictionary/portuguese-brazil_technical-terms.dic" CorrectionsLimit="5" DefaultDictionary="project-level" UseSingleDictionary="false" />
+  <component name="WindowStateProjectService">
+    <state x="240" y="65" key="#Inspections" timestamp="1582033540250">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="65" key="#Inspections/0.0.1280.800@0.0.1280.800" timestamp="1582033540250" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1582037956265">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1582037956265" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1582037956263">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1582037956263" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1582037956262">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1582037956262" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1582037956264">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1582037956264" />
+    <state x="149" y="23" key="SettingsEditor" timestamp="1582035214314">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="149" y="23" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1582035214314" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1582029177409">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1582029177409" />
+  </component>
+</project>
