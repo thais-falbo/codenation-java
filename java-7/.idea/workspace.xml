@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="224c4cfc-e07c-4006-937b-032d151e776d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/challenge/Carro$CarroBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/challenge/Carro$CarroBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/challenge/Carro.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/challenge/Carro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/challenge/Motorista$MotoristaBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/challenge/Motorista$MotoristaBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/challenge/Motorista.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/challenge/Motorista.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/challenge/EstacionamentoSubmissionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/challenge.EstacionamentoSubmissionTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-challenge.EstacionamentoSubmissionTest.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1Xzxa6HdXWMjgoo83ZmwaJIoH3A" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager" selected="Gradle.EstacionamentoTest">
+    <configuration name="EstacionamentoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;challenge.EstacionamentoTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="EstacionamentoTest.casoTodosSejamSeniorONovoMotoristaNaoTeraVaga" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;challenge.EstacionamentoTest.casoTodosSejamSeniorONovoMotoristaNaoTeraVaga&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="EstacionamentoTest.deveRetornarErroQuandoIdadeNegativa" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;challenge.EstacionamentoTest.deveRetornarErroQuandoIdadeNegativa&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="EstacionamentoTest.naoDeveUltrapassarEstacionamento" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;challenge.EstacionamentoTest.naoDeveUltrapassarEstacionamento&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.EstacionamentoTest" />
+        <item itemvalue="Gradle.EstacionamentoTest.naoDeveUltrapassarEstacionamento" />
+        <item itemvalue="Gradle.EstacionamentoTest.casoTodosSejamSeniorONovoMotoristaNaoTeraVaga" />
+        <item itemvalue="Gradle.EstacionamentoTest.deveRetornarErroQuandoIdadeNegativa" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="4" Folder0="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary" Folder1="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary" Folder2="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary" Folder3="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary" CustomDictionaries="4" CustomDictionary0="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary/portuguese-brazil_technical-terms_without-accents.dic" CustomDictionary1="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary/portuguese-brazil_technical-terms.dic" CustomDictionary2="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary/portuguese-brazil_without-accents.dic" CustomDictionary3="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary/portuguese-brazil.dic" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="project-level" UseSingleDictionary="true" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Finish Motorista" />
+    <MESSAGE value="Finish Carro" />
+    <MESSAGE value="Finish Estacionamento" />
+    <MESSAGE value="Refatorar Desafio Estacionamento" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refatorar Desafio Estacionamento" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582065762297">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1582065762297" />
+    <state x="285" y="0" width="709" height="709" key="CommitChangelistDialog2" timestamp="1582105740999">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="285" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1582105740999" />
+    <state x="285" y="23" width="709" height="709" key="CommitChangelistDialog2/0.23.1280.709@0.23.1280.709" timestamp="1582088198573" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1582105776107">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1582105776107" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1582105776105">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1582105776105" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1582105776104">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1582105776104" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1582105776106">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1582105776106" />
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1582091846770">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1582091846770" />
+    <state width="1238" height="263" key="GridCell.Tab.1.center" timestamp="1582091846769">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1582091846769" />
+    <state width="1238" height="263" key="GridCell.Tab.1.left" timestamp="1582091846768">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1582091846768" />
+    <state width="1238" height="263" key="GridCell.Tab.1.right" timestamp="1582091846769">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1582091846769" />
+    <state x="149" y="0" key="SettingsEditor" timestamp="1582087195282">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="149" y="0" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1582087195282" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1582105747136">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1582105747136" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1582105663144">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1582105663144" />
+  </component>
+</project>
