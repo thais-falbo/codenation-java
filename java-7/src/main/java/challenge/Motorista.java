@@ -9,10 +9,10 @@ public class Motorista {
 
     // Constructor
     private Motorista(MotoristaBuilder builder) {
-        this.nome = builder.getNome();
-        this.idade = builder.getIdade();
-        this.pontos = builder.getPontos();
-        this.habilitacao = builder.getHabilitacao();
+        this.nome = builder.nome;
+        this.idade = builder.idade;
+        this.pontos = builder.pontos;
+        this.habilitacao = builder.habilitacao;
     }
 
     public static MotoristaBuilder builder() {
@@ -46,58 +46,58 @@ public class Motorista {
         private MotoristaBuilder() {
         }
 
-        public Motorista build() throws NullPointerException, IllegalArgumentException, EstacionamentoException {
-            if (getHabilitacao().trim().equals("") || getNome().trim().equals(""))
-                throw new NullPointerException();
-            else if (getIdade() < 0 || getPontos() < 0)
-                throw new IllegalArgumentException();
-            else if (getIdade() > 0 && getIdade() < 18)
-                throw new EstacionamentoException("Não pode estacionar motorista de menor");
-            else if (getPontos() > 20)
-                throw new EstacionamentoException("Não pode estacionar motorista com mais de 20 pontos");
+        public Motorista build() {
+            withNome(nome);
+            withHabilitacao(habilitacao);
+            withIdade(idade);
+            withPontos(pontos);
 
             return new Motorista(this);
         }
 
-        public MotoristaBuilder withNome(String nome) {
+        public MotoristaBuilder withNome(String nome) throws NullPointerException{
+            if(validaNome(nome)) throw new NullPointerException();
+
             this.nome = nome;
             return this;
         }
 
         public MotoristaBuilder withIdade(int idade) throws IllegalArgumentException {
-            if (idade < 0) throw new IllegalArgumentException();
+            if (validaIdade(idade)) throw new IllegalArgumentException();
 
             this.idade = idade;
             return this;
         }
 
         public MotoristaBuilder withPontos(int pontos) throws IllegalArgumentException {
-            if (pontos < 0) throw new IllegalArgumentException();
+            if (validaPontos(pontos)) throw new IllegalArgumentException();
 
             this.pontos = pontos;
             return this;
         }
 
-        public MotoristaBuilder withHabilitacao(String habilitacao) {
+        public MotoristaBuilder withHabilitacao(String habilitacao) throws NullPointerException {
+            if (validaHabilitacao(habilitacao)) throw new NullPointerException();
+
             this.habilitacao = habilitacao;
             return this;
         }
 
-        // Getters
-        private String getNome() {
-            return nome;
+        // Validators
+        private Boolean validaHabilitacao(String habilitacao) {
+            return habilitacao.trim().isEmpty();
         }
 
-        private int getIdade() {
-            return idade;
+        private Boolean validaNome (String nome) {
+            return nome.trim().isEmpty();
         }
 
-        private int getPontos() {
-            return pontos;
+        private Boolean validaPontos (int pontos) {
+            return pontos < 0;
         }
 
-        private String getHabilitacao() {
-            return habilitacao;
+        private Boolean validaIdade (int idade) {
+            return idade < 0;
         }
     }
 }

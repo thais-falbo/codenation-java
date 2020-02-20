@@ -8,9 +8,9 @@ public class Carro {
 
     // Constructor
     private Carro(CarroBuilder builder) {
-        this.motorista = builder.getMotorista();
-        this.placa = builder.getPlaca();
-        this.cor = builder.getCor();
+        this.motorista = builder.motorista;
+        this.placa = builder.placa;
+        this.cor = builder.cor;
     }
 
     public static CarroBuilder builder() {
@@ -40,41 +40,41 @@ public class Carro {
         private CarroBuilder() {
         }
 
-        public Carro build() throws NullPointerException, EstacionamentoException {
-            if (getCor() == null || getPlaca().trim().equals(""))
-                throw new NullPointerException();
-            else if (getMotorista() == null)
-                throw new EstacionamentoException("Carro deve ter motorista");
+        public Carro build() {
+            withCor(cor);
+            withMotorista(motorista);
+            withPlaca(placa);
 
             return new Carro(this);
         }
 
         public CarroBuilder withMotorista(Motorista motorista) {
+            // Não validamos motorista pq o carro pode ser autônomo
             this.motorista = motorista;
             return this;
         }
 
-        public CarroBuilder withPlaca(String placa) {
+        public CarroBuilder withPlaca(String placa) throws NullPointerException {
+            if (validarPlaca(placa)) throw new NullPointerException("Carro deve ter placa");
+
             this.placa = placa;
             return this;
         }
 
-        public CarroBuilder withCor(Cor cor) {
+        public CarroBuilder withCor(Cor cor) throws NullPointerException {
+            if (validarCor(cor)) throw new NullPointerException("Carro deve ter cor");
+
             this.cor = cor;
             return this;
         }
 
-        // Getters
-        private Motorista getMotorista() {
-            return motorista;
+        // Validação
+        private Boolean validarPlaca (String placa) {
+            return placa.trim().isEmpty();
         }
 
-        private Cor getCor() {
-            return cor;
-        }
-
-        private String getPlaca() {
-            return placa;
+        private Boolean validarCor (Cor cor) {
+            return cor == null;
         }
     }
 }

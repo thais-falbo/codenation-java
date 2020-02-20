@@ -3,13 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="224c4cfc-e07c-4006-937b-032d151e776d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/challenge/Carro$CarroBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/challenge/Carro$CarroBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/challenge/Carro.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/challenge/Carro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/challenge/Motorista$MotoristaBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/challenge/Motorista$MotoristaBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/challenge/Motorista.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/challenge/Motorista.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/challenge/EstacionamentoSubmissionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/challenge.EstacionamentoSubmissionTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-challenge.EstacionamentoSubmissionTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/challenge/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenge/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/challenge/Estacionamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenge/Estacionamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/challenge/Motorista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenge/Motorista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stdout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/stdout.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,6 +149,16 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="4" Folder0="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary" Folder1="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary" Folder2="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary" Folder3="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary" CustomDictionaries="4" CustomDictionary0="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary/portuguese-brazil_technical-terms_without-accents.dic" CustomDictionary1="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary/portuguese-brazil_technical-terms.dic" CustomDictionary2="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary/portuguese-brazil_without-accents.dic" CustomDictionary3="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary/portuguese-brazil.dic" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="project-level" UseSingleDictionary="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="224c4cfc-e07c-4006-937b-032d151e776d" name="Default Changelist" comment="" />
+      <created>1582237385176</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582237385176</updated>
+    </task>
+    <servers />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -187,22 +194,22 @@
     </state>
     <state x="285" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1582105740999" />
     <state x="285" y="23" width="709" height="709" key="CommitChangelistDialog2/0.23.1280.709@0.23.1280.709" timestamp="1582088198573" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1582105776107">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1582238944065">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1582105776107" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1582105776105">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1582238944065" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1582238944063">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1582105776105" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1582105776104">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1582238944063" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1582238944063">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1582105776104" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1582105776106">
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1582238944063" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1582238944064">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1582105776106" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1582238944064" />
     <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1582091846770">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -227,9 +234,9 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1582105747136" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1582105663144">
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1582237824411">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1582105663144" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1582237824411" />
   </component>
 </project>

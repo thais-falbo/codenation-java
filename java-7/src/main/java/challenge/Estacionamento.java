@@ -10,6 +10,8 @@ public class Estacionamento {
     private List<Carro> carrosEstacionados = new ArrayList<>();
 
     public void estacionar(Carro carro) throws EstacionamentoException {
+        validarMotorista(carro.getMotorista());
+
         List<Motorista> motoristasSeniors = getMotoristasSeniors();
 
         // Caso esteja lotado
@@ -50,5 +52,16 @@ public class Estacionamento {
                 .filter(carroEstacionado -> carroEstacionado.getMotorista().getIdade() > IDADE_MINIMA_SENIOR)
                 .map(Carro::getMotorista)
                 .collect(Collectors.toList());
+    }
+
+    private void validarMotorista(Motorista motorista) throws EstacionamentoException {
+        if (motorista == null)
+            throw new EstacionamentoException("Carro não pode ser autônomo");
+
+        if (motorista.getIdade() < 18)
+            throw new EstacionamentoException("Motorista não pode ser menor de idade");
+
+        if (motorista.getPontos() > 20)
+            throw new EstacionamentoException("Motorista não pode ter mais de 20 pontos na carteira");
     }
 }
