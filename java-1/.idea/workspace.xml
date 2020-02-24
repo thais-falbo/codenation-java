@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02db04b8-0c6e-4636-9691-928dbd284f40" name="Default Changelist" comment="" />
+    <list default="true" id="02db04b8-0c6e-4636-9691-928dbd284f40" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/codenation/DesafioMeuTimeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/codenation/DesafioMeuTimeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/codenation/Jogador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/codenation/Jogador.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +65,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1XxBevVsDKks4s76PQRa7Ni5g4c" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -68,6 +77,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowFavorites.ShowToolbar" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -85,6 +95,16 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="4" Folder0="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary" Folder1="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary" Folder2="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary" Folder3="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary" CustomDictionaries="4" CustomDictionary0="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary/portuguese-brazil_technical-terms_without-accents.dic" CustomDictionary1="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary/portuguese-brazil_technical-terms.dic" CustomDictionary2="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary/portuguese-brazil_without-accents.dic" CustomDictionary3="$USER_HOME$/Documents/IntelliJ.Portuguese.Brazil.Dictionary/portuguese-brazil.dic" Dictionaries="4" Dictionary0="$USER_HOME$/Desktop/IntelliJ.Portuguese.Brazil.Dictionary/portuguese-brazil_without-accents.dic" Dictionary1="$USER_HOME$/Desktop/IntelliJ.Portuguese.Brazil.Dictionary/portuguese-brazil_technical-terms_without-accents.dic" Dictionary2="$USER_HOME$/Desktop/IntelliJ.Portuguese.Brazil.Dictionary/portuguese-brazil.dic" Dictionary3="$USER_HOME$/Desktop/IntelliJ.Portuguese.Brazil.Dictionary/portuguese-brazil_technical-terms.dic" CorrectionsLimit="5" DefaultDictionary="project-level" UseSingleDictionary="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02db04b8-0c6e-4636-9691-928dbd284f40" name="Default Changelist" comment="" />
+      <created>1582546256079</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582546256079</updated>
+    </task>
+    <servers />
+  </component>
   <component name="WindowStateProjectService">
     <state x="240" y="65" key="#Inspections" timestamp="1582033540250">
       <screen x="0" y="0" width="1280" height="800" />

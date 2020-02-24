@@ -27,6 +27,7 @@ public class Jogador {
         this.dataNascimento = dataNascimento;
         this.nivelHabilidade = nivelHabilidade;
         this.salario = salario;
+        validar();
     }
 
     public Long getId() {
@@ -51,5 +52,10 @@ public class Jogador {
 
     public BigDecimal getSalario() {
         return salario;
+    }
+
+    private void validar () throws NullPointerException {
+        if (this.id == null)
+            throw new NullPointerException();
     }
 }

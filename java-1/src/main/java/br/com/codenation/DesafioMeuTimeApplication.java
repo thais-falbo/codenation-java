@@ -3,11 +3,7 @@ package br.com.codenation;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
-import java.util.ArrayList;
-import java.util.Map;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Comparator;
+import java.util.*;
 import java.util.stream.Collectors;
 
 import br.com.codenation.desafio.annotation.Desafio;
@@ -149,9 +145,7 @@ public class DesafioMeuTimeApplication implements MeuTimeInterface {
      */
     @Desafio("buscarNomeTime")
     public String buscarNomeTime(Long idTime) throws TimeNaoEncontradoException {
-        Time time = buscarTime(idTime);
-
-        return time.getNome();
+        return buscarTime(idTime).getNome();
     }
 
     /**
@@ -184,8 +178,9 @@ public class DesafioMeuTimeApplication implements MeuTimeInterface {
         return getListaJogadoresTime(idTime)
                 .stream()
                 .max(Comparator.comparingInt(Jogador::getNivelHabilidade))
-                .map(Jogador::getId)
-                .get();
+                .get()
+                .getId();
+
     }
 
     /**
@@ -198,12 +193,12 @@ public class DesafioMeuTimeApplication implements MeuTimeInterface {
     public Long buscarJogadorMaisVelho(Long idTime) throws TimeNaoEncontradoException {
         buscarTime(idTime);
 
-        return getListaJogadoresTime(idTime)
+        return Objects.requireNonNull(getListaJogadoresTime(idTime)
                 .stream()
                 .sorted(Comparator.comparingLong(Jogador::getId))
                 .min(Comparator.comparing(Jogador::getDataNascimento))
-                .map(Jogador::getId)
-                .get();
+                .get()
+                .getId();
     }
 
     /**
@@ -239,8 +234,8 @@ public class DesafioMeuTimeApplication implements MeuTimeInterface {
                 .stream()
                 .sorted(Comparator.comparingLong(Jogador::getId))
                 .max(Comparator.comparing(Jogador::getSalario))
-                .map(Jogador::getId)
-                .get();
+                .get()
+                .getId();
     }
 
     /**
@@ -252,9 +247,7 @@ public class DesafioMeuTimeApplication implements MeuTimeInterface {
      */
     @Desafio("buscarSalarioDoJogador")
     public BigDecimal buscarSalarioDoJogador(Long idJogador) throws JogadorNaoEncontradoException {
-        Jogador jogador = buscarJogador(idJogador);
-
-        return jogador.getSalario();
+        return buscarJogador(idJogador).getSalario();
     }
 
     /**
